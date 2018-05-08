@@ -2,7 +2,10 @@ window.onload = function(){
 	document.getElementById("butt").onclick = function() {
 		loadDoc()
 	};
+  
 }
+
+var hola = "hola";
 
 function loadDoc() {
 	var xhttp = new XMLHttpRequest();
